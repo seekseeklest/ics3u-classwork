@@ -25,6 +25,9 @@ can_break_record = projected_home_runs > home_run_record
 print(f"{player} of the {team}")
 print(f"currently has {home_runs_to_date} home runs as of {current_date}.")
 print(f"The current MLB record for most home runs in a season is {home_run_record}.")
-print(f"With {games_remaining} games remaining and an average of {home_runs_per_game} home runs per game,")
+print(f"With {games_remaining} games remaining and an average of {round(home_runs_per_game)} home runs per game,")
 print(f"it is {can_break_record} that he is on pace to break the record.")
-print(f"{player} is projected to hit {projected_home_runs} home runs this season.")
+print(f"{player} is projected to hit {round(projected_home_runs)} home runs this season.")
+
+# the two empty lines serve to group certain lines of code together. The first group are the base values of variables. the second group introduces new variables with values that include previous defined variables, arranged with operators. the third group is for all the print commands.
+# I know that games_remaining = total_season_games - games_played because it means how many games are left over, excluding the games that have already been played.
