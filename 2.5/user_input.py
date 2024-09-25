@@ -2,8 +2,8 @@
 print("Enter the following information about an item you wish to purchase..")
 print()
 
-name = input()
 print("The name of the item:")
+name = input()
 
 price = float(input("The price: $"))
 
