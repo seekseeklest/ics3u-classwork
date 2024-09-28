@@ -5,6 +5,7 @@ have_ball = False
 
 if robot_location < ball_location:
     print("Almost at the ball")
+# if the value of robot location is smaller than the value of ball_location, it will print out the following message.
 
 if robot_location > goal_location:
     print("You are beyond the goal.")
