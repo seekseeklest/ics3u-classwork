@@ -1,6 +1,6 @@
 name = (input("What is your name? "))
-Sherlock = name.upper().lower().count("sherlock")
-diddy = name.upper().lower().count("diddy")
+Sherlock = name.lower().count("sherlock")
+diddy = name.lower().count("diddy")
 if int(Sherlock) == 1:
     print("So a fed boy? I heard you out my pals in prison! Boys, get his ass!")
     print()
