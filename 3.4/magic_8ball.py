@@ -1,7 +1,7 @@
 import random
 
 
-choice = random.randrange(1, 16)  # 1-15
+choice = random.randrange(1, 21)
 response = ""
 
 if choice == 1:
@@ -34,6 +34,16 @@ elif choice == 14:
     response = "Cannot predict now"
 elif choice == 15:
     response = "Concentrate and ask again"
+elif choice == 16:
+    response = "Don't count on it"
+elif choice == 17:
+    response = "My reply is no"
+elif choice == 18:
+    response = My sources say no"
+elif choice == 19:
+    response = "Outlook not so good"
+elif choice == 20:
+    response = "Very doubtful"
 else:
     response = "8-BALL ERROR!"
 
