@@ -1,0 +1,15 @@
+q1 = input("Does it belong inside, outside, or both? ").lower()
+q2 = input("Is it alive? (yes or no) ").lower()
+
+if q1 == "inside" and q2 == "yes":
+    print("It must be a houseplant!")
+if q1 == "inside" and q2 == "no":
+    print("It must be a couch!")
+if q1 == "outside" and q2 == "yes":
+    print("It must be a bison!")
+if q1 == "outside" and q2 == "no":
+    print("It must be a mailbox!")
+if q1 == "both" and q2 == "yes":
+    print("It must be a dog!")
+if q1 == "both" and q2 == "no":
+    print("It must be a cellphone!")
