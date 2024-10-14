@@ -11,7 +11,6 @@ while game_running:
 		op = int(input_num)
 		if op == n:
 			print('Congratulations, you guessed correctly!')
-			print(f'It took you {guesses+1} tries to get it right!')
 			game_running=False
 		elif op < n:
 			print('Oopsies! your number was too small! Please try again!')
