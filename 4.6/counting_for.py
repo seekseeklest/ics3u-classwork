@@ -22,7 +22,7 @@ for n in range(0, 5, 1):
 # It starts at 3 and counts up to 8 (not including 9).
 
 # Question 6 (repeat 10 times):
-print("Type in a message, and I'll display it five times.")
+print("Type in a message, and I'll display it ten times.")
 
 message = input("Message: ")
 
@@ -31,7 +31,7 @@ for n in range(0, 10):
 
 
 # Question 7 (count by twos):
-print("Type in a message, and I'll display it five times.")
+print("Type in a message, and I'll display it five times, starting at 2 and counting by 2.")
 
 message = input("Message: ")
 
